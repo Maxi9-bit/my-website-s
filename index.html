@@ -8,6 +8,8 @@
         color: black;
         border-radius: 2px;
         cursor: pointer;
+        margin-right: 20px;
+        border: none;
       }
 
       .OhOhOh {
@@ -15,10 +17,21 @@
         color: black;
         border-radius: 10px;
         cursor: pointer;
+        border: none;
       }
 
       .fragare-input {
         width: 250px
+      }
+
+      .done-button {
+        cursor: pointer;
+        background-color: white;
+        color: blue;
+        height: 50px;
+        width: 500;
+        border-radius: 5px;
+        border-color: blue;
       }
     </style>
   </head>
@@ -27,7 +40,15 @@
       Hallå, hallå Oskar. Du sökte visst ändå
     </p>
 
-    <p>Alright, men tryck på någon knapp</p>
+    <p>
+      Du ska gå igenom ett test nu så att jag vet att det är du
+    </p>
+
+    <p>TEST 1</p>
+
+    <p>
+      Alright, men tryck på någon knapp
+    </p>
 
     <button class="oh-oh-button" onclick="alert('Ooooh, ah. Bra val');">
       OhOh
@@ -37,22 +58,50 @@
       OhOhOh
     </button>
 
-    <p>Ooooh</p>
+    <p>
+      Ooooh
+    </p>
 
     <a target="_blank" href=" https://maxi9-bit.github.io/my-website-s/" >
       Här är mitt sten, sax, påse-spel(på engelska)
     </a>
 
-    <p>Om du nu tryckte på det, tack</p>
+    <p>
+      Om du nu tryckte på det, tack
+    </p>
+
+    <p>
+      Okej då går vi vidare TEST 2
+    </p>
 
     <input placeholder="Skriv datumet(när du sökte på det här) här" class="fragare-input">
     Najs med bajs
     </input>
+
+    <p>
+
+    </p>
+
+    <button class="done-button" onclick="alert('Grattis, du är färdig ska du gå till Max och säga följande text(imorgon)');">
+      När du har skrivit in där, tryck på mig
+    </button>
+
+    <p>Neonlight2</p>
+
+    <p>
+      Förbered dig nu...
+    </p>
+
+    <button onclick="oskarKommerAttBliÖverraskad();">Tryck här</button>
     
     <script>
-      alert('Välkommen till min website, vem som nu söker(säkert Oskar)')
-      function oscarKommerAttBliÖverraskad() {
-
+      alert('Välkommen till min website, den som söker på den(säkert Oskar)');
+      function oskarKommerAttBliÖverraskad() {
+        alert('Okej, så högerklicka med din mus/klicka med två fingrar på en blank yta');
+        alert('När du har gjort det, tryck på inspektera/inspect');
+        alert('Tryck på kategorin "console"/"konsol", men om du stannar på kategorin "elements" så ser du koden för min webbsida');
+        console.log('buuuuuuuuuuuuu!!!!!!!');
+        console.log();
       }
     </script>
   </body>
